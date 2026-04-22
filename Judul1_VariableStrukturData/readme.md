@@ -21,6 +21,7 @@ List 2D digunakan karena memiliki struktur baris dan kolom yang sesuai dengan de
 ### 1. Inisialisasi List 2D
 ```python
 kursi = [[0 for _ in range(2)] for _ in range(3)]
+
 ### 2. Menu Program
 Program memiliki menu untuk memilih aksi yang akan dilakukan oleh pengguna, yaitu:
 - Menampilkan kursi
