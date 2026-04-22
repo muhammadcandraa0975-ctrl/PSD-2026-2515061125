@@ -17,6 +17,10 @@ List 2D digunakan karena memiliki struktur baris dan kolom yang sesuai dengan de
 ---
 
 ## 🧠 Penjelasan Kode
+### 1. Inisialisasi List 2D
+```python
+kursi = [[0 for _ in range(2)] for _ in range(3)] ```md
+
 
 ### 1. Inisialisasi List 2D
 
