@@ -18,12 +18,13 @@ List 2D digunakan karena memiliki struktur baris dan kolom yang sesuai dengan de
 
 ## 🧠 Penjelasan Kode
 ### 1. Inisialisasi List 2D
-```python
-kursi = [[0 for _ in range(2)] for _ in range(3)] ```md
+### 2. Menu Program
+Program memiliki menu yang digunakan untuk memilih aksi yang akan dilakukan oleh pengguna.
 
-
-### 1. Inisialisasi List 2D
-
+Menu yang tersedia adalah:
+- Menampilkan kursi
+- Memesan kursi
+- Keluar dari program
 kursi = [[0 for _ in range(2)] for _ in range(3)]
 Digunakan untuk membuat kursi bioskop dengan 3 baris dan 2 kolom.
 Nilai:
