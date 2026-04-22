@@ -4,8 +4,10 @@ Sistem Pemesanan Kursi Bioskop Menggunakan List 2 Dimensi
 
 B. Deskripsi Singkat
 
-Program ini merupakan simulasi sederhana sistem pemesanan kursi bioskop menggunakan pemrograman Python. Program ini memanfaatkan struktur data list 2 dimensi untuk merepresentasikan kursi dalam bentuk baris dan kolom.
-Dalam program ini, pengguna dapat melihat denah kursi, memesan kursi yang kosong, dan keluar dari program. Algoritma yang digunakan melibatkan perulangan (while), percabangan (if-elif-else), serta penanganan error (try-except) untuk memastikan input pengguna/user valid.
+Program ini dibuat untuk mensimulasikan pemesanan kursi di bioskop. Di dalam program ini, kursi direpresentasikan dalam bentuk list dua dimensi, sehingga tersusun seperti baris dan kolom seperti denah kursi di bioskop pada umumnya.
+Pengguna bisa melihat daftar kursi yang masih kosong, memesan kursi tertentu, dan keluar dari program melalui menu yang tersedia. Kursi yang masih kosong ditandai dengan angka 0, sedangkan kursi yang sudah dipesan akan berubah menjadi 1.
+
+Program ini menggunakan perulangan while supaya program tetap berjalan sampai pengguna memilih untuk keluar. Selain itu, digunakan juga percabangan if-elif-else untuk menentukan aksi sesuai dengan pilihan yang dimasukkan oleh pengguna. Untuk menghindari error saat input, program dilengkapi dengan try-except, jadi kalau pengguna salah memasukkan data, program tidak langsung berhenti.
 
 C. Source Code dan Penjelasan
 
