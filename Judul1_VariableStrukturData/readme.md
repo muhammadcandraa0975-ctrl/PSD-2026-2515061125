@@ -1,67 +1,24 @@
-# 🎬 Implementasi List 2 Dimensi pada Sistem Pemesanan Kursi Bioskop
+# 🎬 Sistem Pemesanan Kursi Bioskop (List 2 Dimensi)
 
-## 📌 Deskripsi
-Program ini merupakan implementasi struktur data **List 2 Dimensi (List 2D)** menggunakan bahasa Python.  
-Program ini digunakan untuk mensimulasikan sistem pemesanan kursi bioskop.
+Proyek ini adalah simulasi sederhana sistem pemesanan kursi bioskop yang mengimplementasikan konsep **Struktur Data List 2 Dimensi** menggunakan bahasa pemrograman Python.
 
-List 2D digunakan karena memiliki struktur baris dan kolom yang sesuai dengan denah kursi bioskop.
+## 📝 Deskripsi
+Program ini memungkinkan pengguna untuk melihat denah kursi yang tersedia, memilih lokasi kursi berdasarkan koordinat baris dan kolom, serta memperbarui status kursi tersebut secara otomatis setelah dipesan. Ini adalah bagian dari tugas mata kuliah **Praktikum Struktur Data (PSD) 2026**.
 
----
+## ✨ Fitur Utama
+- **Visualisasi Denah**: Menampilkan grid kursi dalam format baris dan kolom.
+- **Pemesanan Kursi**: Input interaktif untuk memilih kursi (Baris & Kolom).
+- **Validasi Status**: Sistem akan mengecek apakah kursi sudah terisi atau masih kosong sebelum memproses pesanan.
+- **Simbol Status**:
+  - `[O]` : Kursi Kosong/Tersedia.
+  - `[X]` : Kursi Terisi/Sudah Dipesan.
 
-## 🎯 Fitur Program
-- Menampilkan denah kursi
-- Memesan kursi
-- Validasi input
-- Keluar dari program
-
----
-
-## 🧠 Penjelasan Kode
-
-### 1. Inisialisasi List 2D
+## 🛠️ Logika Struktur Data
+Program menggunakan *Nested List* (List di dalam List) untuk merepresentasikan matriks kursi:
 ```python
-kursi = [[0 for _ in range(2)] for _ in range(3)]```
-
----
-
-## 🔥 LALU TAMBAHKAN LANJUTAN INI DI BAWAHNYA
-
-**Langsung paste setelah kode kamu:**
-
-```md
-Digunakan untuk membuat kursi bioskop dengan 3 baris dan 2 kolom.  
-Nilai:
-- 0 = kursi kosong  
-- 1 = kursi terisi  
-
----
-
-### 2. Menu Program
-Program memiliki menu untuk memilih aksi:
-- Menampilkan kursi
-- Memesan kursi
-- Keluar dari program
-
----
-
-### 3. Perulangan Program
-Program menggunakan perulangan `while` agar terus berjalan sampai user keluar.
-
----
-
-### 4. Menampilkan Kursi
-Menggunakan perulangan `for` bersarang untuk menampilkan baris dan kolom.
-
----
-
-### 5. Pemesanan Kursi
-User memasukkan baris dan kolom, lalu program mengecek apakah kursi kosong atau tidak.
-
----
-
-### 6. Validasi Input
-Menggunakan `try-except` agar program tidak error jika input salah.
-
----
-
-## ▶️ Contoh Output
+# Contoh inisialisasi grid
+denah = [
+    ["O", "O", "O"],
+    ["O", "O", "O"],
+    ["O", "O", "O"]
+]
