@@ -15,8 +15,7 @@ Program ini memungkinkan pengguna untuk melihat denah kursi yang tersedia, memil
 
 ## 🛠️ Logika Struktur Data
 Program menggunakan *Nested List* (List di dalam List) untuk merepresentasikan matriks kursi:
-```python
-# Contoh inisialisasi grid
+```python # Contoh inisialisasi grid
 denah = [
     ["O", "O", "O"],
     ["O", "O", "O"],
