@@ -251,4 +251,4 @@ Setelah semua data berhasil dimasukkan, program akan menampilkan data sebelum pr
 Setelah proses sorting selesai, program akan menampilkan hasil akhir yaitu berupa data tinggi badan yang sudah terurut secara ascending. Output ini menunjukkan bahwa algoritma Bubble Sort berhasil bekerja dengan baik sesuai studi kasus yang dibuat tanpa mengalami error.
 
 ## Link vidio youtube
-https://youtu.be/dm3M7jBXLkg
+https://youtu.be/w5Zep7hgUkI?si=YFOTnkXRg5S8pR96
