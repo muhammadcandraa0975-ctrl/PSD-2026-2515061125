@@ -170,6 +170,13 @@ Menjalankan program.
 ### Screenshot Output
 <img width="1449" height="405" alt="Cuplikan layar 2026-04-28 094722" src="https://github.com/user-attachments/assets/b61c3de5-3f94-4c5d-8612-4f44af1aec07" />
 
+## Penjelasan Output Program
+
+Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah data tinggi badan siswa yang ingin diurutkan. Setelah jumlah data dimasukkan, pengguna menginput tinggi badan siswa satu per satu sesuai jumlah yang telah ditentukan.
+
+Setelah semua data berhasil dimasukkan, program akan menampilkan data sebelum proses pengurutan dilakukan. Kemudian program menjalankan algoritma Bubble Sort dengan metode **ascending**, yaitu mengurutkan data dari nilai yang paling kecil ke nilai yang paling besar dengan cara membandingkan dua data yang berdekatan dan menukarnya jika urutannya belum sesuai.
+
+Setelah proses sorting selesai, program akan menampilkan hasil akhir berupa data tinggi badan yang sudah terurut secara ascending. Output ini menunjukkan bahwa algoritma Bubble Sort berhasil bekerja dengan baik sesuai studi kasus yang dibuat tanpa mengalami error.
 
 ### Penjelasan Output
 Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Setelah itu, pengguna memasukkan tinggi badan masing-masing siswa.
