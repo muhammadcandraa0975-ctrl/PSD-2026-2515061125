@@ -2,17 +2,15 @@
 Implementasi Algoritma Bubble Sort pada Pengurutan Tinggi Badan Siswa
 
 ## Deskripsi Singkat
-Program ini saya buat untuk mengurutkan data tinggi badan siswa menggunakan algoritma **Bubble Sort**. Pertama Pengguna(user) diminta untuk memasukkan jumlah siswa dan tinggi badan masing-masing siswa. Setelah itu data tersebut akan ditampilkan, sebelum dan sesudah proses pengurutan. Jadi dengan adanya program ini, data tinggi badan siswa bisa tersusun dari yang paling rendah sampai yang paling tinggi sehingga lebih mudah untuk dilihat dan dibandingkan.
+Program ini saya buat untuk mengurutkan data tinggi badan siswa menggunakan algoritma **Bubble Sort**. Pertama Pengguna (user) diminta untuk memasukkan jumlah siswa dan tinggi badan masing-masing siswa. Setelah itu data tersebut akan ditampilkan, sebelum dan sesudah proses pengurutan. Jadi dengan adanya program ini, data tinggi badan siswa bisa tersusun dari yang paling rendah sampai yang paling tinggi sehingga lebih mudah untuk dilihat dan dibandingkan.
 
-Algoritma yang saya gunakan pada program ini adalah **Bubble Sort**, yaitu algoritma pengurutan yang bekerja dengan cara membandingkan dua data yang bersebelahan, lalu menukarnya jika urutannya masih salah. Proses ini dilakukan secara berulang sampai semua data terurut dengan benar dan Struktur data yang digunakan adalah **List (Array 1 Dimensi)**, karena data tinggi badan siswa disimpan dalam satu baris data yang nantinya diproses dalam proses pengurutan.
-
-## Source Code dan Penjelasan
-<img width="1708" height="1035" alt="Cuplikan layar 2026-04-28 094504" src="https://github.com/user-attachments/assets/0d194b3f-1bc7-4ec4-b689-a2fac4859e62" />
-<img width="1713" height="1039" alt="Cuplikan layar 2026-04-28 094525" src="https://github.com/user-attachments/assets/fd28ca66-9c2d-4cab-b43a-97307364acad" />
-
+Algoritma yang saya gunakan pada program ini adalah **Bubble Sort**, yaitu algoritma pengurutan yang bekerja dengan cara membandingkan dua data yang bersebelahan, lalu menukarnya jika urutannya masih salah. Proses ini dilakukan secara berulang sampai semua data terurut dengan benar dan struktur data yang digunakan adalah **List (Array 1 Dimensi)**, karena data tinggi badan siswa disimpan dalam satu baris data yang nantinya diproses dalam proses pengurutan.
 
 
 ## Source Code dan Penjelasan
+<img width="1596" height="1040" alt="Cuplikan layar 2026-04-28 210318" src="https://github.com/user-attachments/assets/bd4336f4-fcd0-4921-b32f-a4bdabd62eb6" />
+<img width="1600" height="1050" alt="Cuplikan layar 2026-04-28 210247" src="https://github.com/user-attachments/assets/3f0b367c-1ac3-4145-a06d-939efbdaa427" />
+
 
 ### 1. Fungsi Tukar
 
@@ -246,9 +244,11 @@ Menjalankan fungsi utama program.
 
 ## Penjelasan Output Program
 
-Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Selanjutnya pengguna di minta memasukkan tinggi badan masing-masing siswa.
+Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Selanjutnya pengguna diminta memasukkan tinggi badan masing-masing siswa.
 
 Setelah semua data berhasil dimasukkan, program akan menampilkan data sebelum proses pengurutan dilakukan. Kemudian program menjalankan algoritma Bubble Sort dengan metode ascending, yaitu mengurutkan data dari yang paling kecil ke yang paling besar dengan cara membandingkan dua data yang berdekatan atau bersebelahan dan menukar jika urutannya belum sesuai.
 
 Setelah proses sorting selesai, program akan menampilkan hasil akhir yaitu berupa data tinggi badan yang sudah terurut secara ascending. Output ini menunjukkan bahwa algoritma Bubble Sort berhasil bekerja dengan baik sesuai studi kasus yang dibuat tanpa mengalami error.
 
+## Link vidio youtube
+https://youtu.be/dm3M7jBXLkg
