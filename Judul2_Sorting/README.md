@@ -2,9 +2,9 @@
 Implementasi Algoritma Bubble Sort pada Pengurutan Tinggi Badan Siswa
 
 ## Deskripsi Singkat
-Program ini dibuat untuk mengurutkan data tinggi badan siswa menggunakan algoritma **Bubble Sort**. Pengguna(user) diminta memasukkan jumlah siswa dan tinggi badan masing-masing siswa, kemudian data tersebut akan ditampilkan sebelum dan sesudah proses pengurutan.Jadi dengan adanya program ini, data tinggi badan siswa bisa tersusun dari yang paling rendah sampai yang paling tinggi sehingga lebih mudah untuk dilihat dan dibandingkan.
+Program ini saya buat untuk mengurutkan data tinggi badan siswa menggunakan algoritma **Bubble Sort**. Pertama Pengguna(user) diminta untuk memasukkan jumlah siswa dan tinggi badan masing-masing siswa. Setelah itu data tersebut akan ditampilkan, sebelum dan sesudah proses pengurutan. Jadi dengan adanya program ini, data tinggi badan siswa bisa tersusun dari yang paling rendah sampai yang paling tinggi sehingga lebih mudah untuk dilihat dan dibandingkan.
 
-Algoritma yang digunakan pada program ini adalah **Bubble Sort**, yaitu algoritma pengurutan yang bekerja dengan cara membandingkan dua data yang bersebelahan, lalu menukarnya jika urutannya masih salah. Proses ini dilakukan secara berulang sampai semua data terurut dengan benar. Struktur data yang digunakan adalah **List (Array 1 Dimensi)**, karena data tinggi badan siswa disimpan dalam satu baris data yang nantinya diproses dalam proses pengurutan.
+Algoritma yang saya gunakan pada program ini adalah **Bubble Sort**, yaitu algoritma pengurutan yang bekerja dengan cara membandingkan dua data yang bersebelahan, lalu menukarnya jika urutannya masih salah. Proses ini dilakukan secara berulang sampai semua data terurut dengan benar dan Struktur data yang digunakan adalah **List (Array 1 Dimensi)**, karena data tinggi badan siswa disimpan dalam satu baris data yang nantinya diproses dalam proses pengurutan.
 
 ## Source Code dan Penjelasan
 <img width="1708" height="1035" alt="Cuplikan layar 2026-04-28 094504" src="https://github.com/user-attachments/assets/0d194b3f-1bc7-4ec4-b689-a2fac4859e62" />
