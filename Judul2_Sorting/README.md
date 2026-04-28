@@ -12,6 +12,7 @@ Algoritma yang saya gunakan pada program ini adalah **Bubble Sort**, yaitu algor
 
 
 
+## Source Code dan Penjelasan
 
 ### 1. Fungsi Tukar
 
@@ -19,25 +20,25 @@ Algoritma yang saya gunakan pada program ini adalah **Bubble Sort**, yaitu algor
 def tukar(arr, i, j):
 ```
 
-Baris ini digunakan untuk membuat fungsi `tukar` yang berfungsi menukar dua data dalam array.
+Bagian ini adalah fungsi untuk menukar dua data yang ada di dalam array. Fungsi ini dipakai kalau ada data yang urutannya masih salah.
 
 ```python
 temp = arr[i]
 ```
 
-Menyimpan nilai sementara dari indeks `i`.
+Data pada indeks `i` disimpan dulu ke variabel sementara supaya datanya tidak hilang saat ditukar.
 
 ```python
 arr[i] = arr[j]
 ```
 
-Memindahkan nilai indeks `j` ke indeks `i`.
+Data pada indeks `j` dipindahkan ke indeks `i`.
 
 ```python
 arr[j] = temp
 ```
 
-Mengisi indeks `j` dengan nilai yang disimpan sementara.
+Data yang tadi disimpan sementara dimasukkan ke indeks `j`. Jadi posisi kedua data sudah berhasil ditukar.
 
 ---
 
@@ -47,31 +48,31 @@ Mengisi indeks `j` dengan nilai yang disimpan sementara.
 def bubble_sort(arr, n):
 ```
 
-Membuat fungsi untuk proses pengurutan Bubble Sort.
+Bagian ini adalah fungsi utama untuk melakukan pengurutan data dengan Bubble Sort.
 
 ```python
 for i in range(n - 1):
 ```
 
-Perulangan untuk jumlah putaran sorting.
+Perulangan pertama dipakai untuk menentukan berapa kali proses pengurutan dilakukan. Kalau jumlah data ada `n`, biasanya cukup `n-1` kali.
 
 ```python
 for j in range(n - i - 1):
 ```
 
-Perulangan untuk membandingkan data yang berdekatan.
+Perulangan kedua dipakai untuk membandingkan data yang posisinya bersebelahan.
 
 ```python
 if arr[j] > arr[j + 1]:
 ```
 
-Mengecek apakah data sebelah kiri lebih besar.
+Bagian ini mengecek apakah data kiri lebih besar dari data kanan. Kalau iya, berarti urutannya salah.
 
 ```python
 tukar(arr, j, j + 1)
 ```
 
-Menukar posisi data jika urutannya salah.
+Kalau urutannya salah, data akan ditukar menggunakan fungsi `tukar`.
 
 ---
 
@@ -81,47 +82,107 @@ Menukar posisi data jika urutannya salah.
 def main():
 ```
 
-Fungsi utama program.
+Ini adalah fungsi utama yang menjalankan semua proses program.
+
+```python
+try:
+```
+
+Bagian ini dipakai untuk mencoba menerima input dari pengguna.
 
 ```python
 n = int(input("Masukkan jumlah siswa: "))
 ```
 
-Input jumlah data siswa.
+Pengguna diminta memasukkan jumlah data yang ingin diurutkan.
+
+```python
+except ValueError:
+```
+
+Bagian ini akan dijalankan kalau pengguna salah input, misalnya memasukkan huruf.
+
+```python
+print("Input tidak valid!")
+```
+
+Menampilkan pesan kalau input salah.
+
+```python
+return
+```
+
+Program berhenti kalau input jumlah data tidak benar.
 
 ```python
 tinggi = []
 ```
 
-Membuat list kosong.
+Membuat list kosong untuk menyimpan data tinggi badan.
+
+```python
+print("Masukkan tinggi badan siswa:")
+```
+
+Menampilkan perintah untuk mulai input data.
 
 ```python
 for i in range(n):
 ```
 
-Perulangan input data.
+Perulangan untuk input data sebanyak jumlah yang sudah dimasukkan.
+
+```python
+while True:
+```
+
+Dipakai supaya kalau input salah, program bisa meminta input ulang.
+
+```python
+try:
+```
+
+Mencoba menerima input tinggi badan.
 
 ```python
 data = int(input(f"Tinggi siswa ke-{i+1}: "))
 ```
 
-Input data tinggi badan.
+Pengguna memasukkan tinggi badan siswa.
 
 ```python
 tinggi.append(data)
 ```
 
-Menambahkan data ke list.
+Data yang dimasukkan langsung disimpan ke dalam list.
+
+```python
+break
+```
+
+Kalau input benar, keluar dari perulangan.
+
+```python
+except ValueError:
+```
+
+Kalau input salah, program masuk ke bagian ini.
+
+```python
+print("Input tidak valid, silakan masukkan angka!")
+```
+
+Menampilkan pesan error dan meminta input ulang.
 
 ---
 
-### 4. Menampilkan Data Awal
+### 4. Menampilkan Data Sebelum Sorting
 
 ```python
 print(f"Tinggi sebelum diurutkan: {tinggi}")
 ```
 
-Menampilkan data sebelum sorting.
+Bagian ini menampilkan data sebelum diurutkan supaya bisa dilihat urutan awalnya.
 
 ---
 
@@ -131,23 +192,35 @@ Menampilkan data sebelum sorting.
 bubble_sort(tinggi, n)
 ```
 
-Memanggil fungsi Bubble Sort.
+Bagian ini menjalankan fungsi Bubble Sort untuk mulai mengurutkan data.
 
 ---
 
-### 6. Menampilkan Hasil
+### 6. Menampilkan Hasil Sorting
+
+```python
+print("Tinggi setelah diurutkan:", end=" ")
+```
+
+Menampilkan tulisan bahwa data sudah selesai diurutkan.
 
 ```python
 for i in range(n):
 ```
 
-Perulangan menampilkan data.
+Perulangan untuk menampilkan semua data hasil sorting.
 
 ```python
 print(tinggi[i], end=" ")
 ```
 
-Menampilkan data hasil sorting.
+Menampilkan data satu per satu.
+
+```python
+print()
+```
+
+Membuat baris baru supaya tampilan lebih rapi.
 
 ---
 
@@ -157,13 +230,14 @@ Menampilkan data hasil sorting.
 if __name__ == "__main__":
 ```
 
-Mengecek file utama.
+Bagian ini digunakan supaya program bisa dijalankan langsung.
 
 ```python
 main()
 ```
 
-Menjalankan program.
+Menjalankan fungsi utama program.
+
 
 ## Output Program
 
