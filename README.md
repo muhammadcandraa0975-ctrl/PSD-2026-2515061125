@@ -172,8 +172,8 @@ Menjalankan program.
 
 
 ### Penjelasan Output
-Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Setelah itu, pengguna memasukkan tinggi badan masing-masing siswa sesuai jumlah yang sudah ditentukan.
+Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Setelah itu, pengguna memasukkan tinggi badan masing-masing siswa.
 
-Setelah semua data berhasil dimasukkan, program akan menampilkan data tinggi badan sebelum dilakukan proses pengurutan. Selanjutnya, program menjalankan algoritma Bubble Sort dengan cara membandingkan dua data yang berdekatan dan menukarnya jika urutannya belum sesuai.
+Setelah semua data berhasil dimasukkan, program akan menampilkan data tinggi badan siswa sebelum di urutakan. Selanjutnya, program akan menjalankan algoritma Bubble Sort dengan cara membandingkan dua data yang berdekatan dan menukarnya jika urutannya belum sesuai.
 
 Setelah proses pengurutan selesai, program menampilkan hasil akhir berupa data tinggi badan yang sudah terurut dari yang paling rendah ke yang paling tinggi. Output ini menunjukkan bahwa program berhasil berjalan sesuai dengan studi kasus yang dibuat tanpa mengalami error.
