@@ -172,15 +172,9 @@ Menjalankan program.
 
 ## Penjelasan Output Program
 
-Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah data tinggi badan siswa yang ingin diurutkan. Setelah jumlah data dimasukkan, pengguna menginput tinggi badan siswa satu per satu sesuai jumlah yang telah ditentukan.
+Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Selanjutnya pengguna di minta memasukkan tinggi badan masing-masing siswa.
 
-Setelah semua data berhasil dimasukkan, program akan menampilkan data sebelum proses pengurutan dilakukan. Kemudian program menjalankan algoritma Bubble Sort dengan metode **ascending**, yaitu mengurutkan data dari nilai yang paling kecil ke nilai yang paling besar dengan cara membandingkan dua data yang berdekatan dan menukarnya jika urutannya belum sesuai.
+Setelah semua data berhasil dimasukkan, program akan menampilkan data sebelum proses pengurutan dilakukan. Kemudian program menjalankan algoritma Bubble Sort dengan metode ascending, yaitu mengurutkan data dari yang paling kecil ke yang paling besar dengan cara membandingkan dua data yang berdekatan atau bersebelahan dan menukar jika urutannya belum sesuai.
 
-Setelah proses sorting selesai, program akan menampilkan hasil akhir berupa data tinggi badan yang sudah terurut secara ascending. Output ini menunjukkan bahwa algoritma Bubble Sort berhasil bekerja dengan baik sesuai studi kasus yang dibuat tanpa mengalami error.
+Setelah proses sorting selesai, program akan menampilkan hasil akhir yaitu berupa data tinggi badan yang sudah terurut secara ascending. Output ini menunjukkan bahwa algoritma Bubble Sort berhasil bekerja dengan baik sesuai studi kasus yang dibuat tanpa mengalami error.
 
-### Penjelasan Output
-Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Setelah itu, pengguna memasukkan tinggi badan masing-masing siswa.
-
-Setelah semua data berhasil dimasukkan, program akan menampilkan data tinggi badan siswa sebelum di urutakan. Selanjutnya, program akan menjalankan algoritma Bubble Sort dengan cara membandingkan dua data yang berdekatan dan menukarnya jika urutannya belum sesuai.
-
-Setelah proses pengurutan selesai, program menampilkan hasil akhir berupa data tinggi badan yang sudah terurut dari yang paling rendah ke yang paling tinggi. Output ini menunjukkan bahwa program berhasil berjalan sesuai dengan studi kasus yang dibuat tanpa mengalami error.
