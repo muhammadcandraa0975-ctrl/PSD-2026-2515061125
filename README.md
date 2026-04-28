@@ -7,6 +7,8 @@ Program ini dibuat untuk mengurutkan data tinggi badan siswa menggunakan algorit
 Algoritma yang digunakan pada program ini adalah **Bubble Sort**, yaitu algoritma pengurutan yang bekerja dengan cara membandingkan dua data yang bersebelahan, lalu menukarnya jika urutannya masih salah. Proses ini dilakukan secara berulang sampai semua data terurut dengan benar. Struktur data yang digunakan adalah **List (Array 1 Dimensi)**, karena data tinggi badan siswa disimpan dalam satu baris data yang nantinya diproses dalam proses pengurutan.
 
 ## Source Code dan Penjelasan
+<img width="1708" height="1035" alt="Cuplikan layar 2026-04-28 094504" src="https://github.com/user-attachments/assets/0d194b3f-1bc7-4ec4-b689-a2fac4859e62" />
+
 
 ### 1. Fungsi Tukar
 
