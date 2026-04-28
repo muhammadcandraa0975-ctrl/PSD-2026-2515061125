@@ -31,9 +31,7 @@ def main():
                 print("Input tidak valid, silakan masukkan angka!")
 
     print(f"Tinggi sebelum diurutkan: {tinggi}")
-
     bubble_sort(tinggi, n)
-
     print("Tinggi setelah diurutkan:", end=" ")
     for i in range(n):
         print(tinggi[i], end=" ")
