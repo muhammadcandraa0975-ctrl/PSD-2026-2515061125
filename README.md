@@ -168,7 +168,8 @@ Menjalankan program.
 ## Output Program
 
 ### Screenshot Output
-![Output Program](output-program.png)
+<img width="1449" height="405" alt="Cuplikan layar 2026-04-28 094722" src="https://github.com/user-attachments/assets/b61c3de5-3f94-4c5d-8612-4f44af1aec07" />
+
 
 ### Penjelasan Output
 Pada saat program dijalankan, pengguna diminta untuk memasukkan jumlah siswa yang datanya ingin diurutkan. Setelah itu, pengguna memasukkan tinggi badan masing-masing siswa sesuai jumlah yang sudah ditentukan.
