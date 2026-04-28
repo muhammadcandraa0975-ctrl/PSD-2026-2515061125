@@ -8,7 +8,8 @@ Algoritma yang digunakan pada program ini adalah **Bubble Sort**, yaitu algoritm
 
 ## Source Code dan Penjelasan
 <img width="1708" height="1035" alt="Cuplikan layar 2026-04-28 094504" src="https://github.com/user-attachments/assets/0d194b3f-1bc7-4ec4-b689-a2fac4859e62" />
-![Uploading Cuplikan layar 2026-04-28 094525.png…]()
+<img width="1713" height="1039" alt="Cuplikan layar 2026-04-28 094525" src="https://github.com/user-attachments/assets/fd28ca66-9c2d-4cab-b43a-97307364acad" />
+
 
 
 
