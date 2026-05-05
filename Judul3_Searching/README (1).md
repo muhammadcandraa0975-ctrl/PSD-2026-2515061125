@@ -192,3 +192,4 @@ Program kemudian melakukan proses pencarian menggunakan algoritma Sequential Sea
 Jika nama peserta ditemukan, program akan menampilkan informasi bahwa nama tersebut ditemukan beserta jumlah kemunculannya. Jika nama yang dimasukkan tidak ada di dalam daftar, program akan menampilkan pesan bahwa nama tidak ditemukan.
 
 ## Link vidio youtube
+https://youtu.be/i7-1BE0wWuc?si=aFsNIq3zvYtFLDAE
