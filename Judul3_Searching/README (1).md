@@ -193,3 +193,8 @@ Jika nama peserta ditemukan, program akan menampilkan informasi bahwa nama terse
 
 ## Link vidio youtube
 https://youtu.be/i7-1BE0wWuc?si=aFsNIq3zvYtFLDAE
+
+## Pencarian Data Menggunakan Interpolation Search
+
+<img width="960" height="1280" alt="WhatsApp Image 2026-05-06 at 19 51 45" src="https://github.com/user-attachments/assets/957fed4a-842e-4999-ae5b-8144214dbb5b" />
+<img width="960" height="1280" alt="WhatsApp Image 2026-05-06 at 19 51 46" src="https://github.com/user-attachments/assets/232b1859-102a-4926-ae0a-ca6f6a687bf3" />
