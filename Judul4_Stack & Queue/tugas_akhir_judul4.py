@@ -1,3 +1,4 @@
+#Implementasi Queue Array pada Sistem Antrian Pasien Klinik
 class QueueArray:
     def __init__(self, max_size=100):
         self.MAXN = max_size
