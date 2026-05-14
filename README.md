@@ -509,3 +509,4 @@ Ketika menu panggil pasien dipilih, pasien yang berada di antrian paling depan a
 Program ini menggunakan konsep FIFO (First In First Out), yaitu data atau pasien yang pertama masuk akan menjadi yang pertama keluar atau dipanggil.
 
 ## Link vidio youtube
+https://youtu.be/qTZyoBkjHeg?si=4nekLFYcQIOmG2fb
