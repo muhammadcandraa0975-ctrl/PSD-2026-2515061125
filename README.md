@@ -687,6 +687,14 @@ main()
 Menjalankan fungsi utama program.
 
 ---
+## Output Program
+<img width="843" height="850" alt="Cuplikan layar 2026-05-19 102324" src="https://github.com/user-attachments/assets/f203abe3-4642-4c9c-aa17-0fa598526877" />
+<img width="827" height="829" alt="Cuplikan layar 2026-05-19 102346" src="https://github.com/user-attachments/assets/5e2ea10b-a9eb-44ca-b237-31f66b3d87ef" />
+<img width="859" height="859" alt="Cuplikan layar 2026-05-19 102405" src="https://github.com/user-attachments/assets/bedc6123-1d0a-4b4a-9bf5-6298d40fb44b" />
+<img width="858" height="540" alt="Cuplikan layar 2026-05-19 102434" src="https://github.com/user-attachments/assets/30d9a35d-5659-425e-a80c-15e672ba89c9" />
+
+
+
 
 # Penjelasan Output Program
 
