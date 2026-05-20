@@ -699,15 +699,11 @@ Menjalankan fungsi utama program.
 # Penjelasan Output Program
 
 Pada saat program dijalankan, sistem akan menampilkan menu utama yang berisi beberapa pilihan, seperti menambahkan nomor antrian, menghapus nomor antrian, menampilkan daftar nomor antrian, mencari nomor setelahnya (successor), mencari nomor sebelumnya (predecessor), dan keluar dari program.
-
 Ketika pengguna memilih menu tambah nomor antrian, nomor yang dimasukkan akan disimpan ke dalam Binary Search Tree sesuai aturan BST, yaitu nilai yang lebih kecil ditempatkan di subtree kiri dan nilai yang lebih besar ditempatkan di subtree kanan.
-
 Saat menu tampilkan nomor antrian dipilih, program akan menampilkan seluruh nomor antrian menggunakan metode level-order traversal.
-
 Jika pengguna memilih menu cari nomor setelahnya, program akan mencari successor atau nomor yang berada setelah nomor tertentu dalam BST.
-
 Jika pengguna memilih menu cari nomor sebelumnya, program akan mencari predecessor atau nomor yang berada sebelum nomor tertentu dalam BST.
-
 Ketika menu hapus nomor antrian dipilih, nomor yang dipilih akan dihapus dari BST sesuai aturan penghapusan node pada Binary Search Tree.
-
 Program ini menggunakan konsep Binary Search Tree sehingga proses pencarian, penambahan, dan penghapusan data dapat dilakukan dengan lebih terstruktur dan efisien.
+## Link vidio youtube
+https://youtu.be/6UYZZ8jKsUg
