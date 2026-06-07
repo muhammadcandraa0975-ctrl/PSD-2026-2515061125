@@ -1,6 +1,8 @@
 ## Judul Program
-Implementasi Queue Array pada Sistem Antrian Pasien Klinik 
+
 Implementasi Hash Map Menggunakan Metode Separate Chaining pada Sistem Akun Game Online
+
+---
 
 ## Deskripsi Singkat
 
@@ -564,3 +566,26 @@ main()
 ```
 
 Menjalankan fungsi utama program.
+
+---
+
+## Output Program
+<img width="814" height="738" alt="Cuplikan layar 2026-06-07 182336" src="https://github.com/user-attachments/assets/f73670a0-1a0f-4e36-87ff-63198077fc52" />
+<img width="807" height="797" alt="Cuplikan layar 2026-06-07 182318" src="https://github.com/user-attachments/assets/37488bd5-d0b5-42f8-a273-8759e6b652c5" />
+
+
+## Penjelasan Output Program
+
+Pada saat program dijalankan, sistem akan menampilkan menu utama yang berisi beberapa pilihan, yaitu mencari akun, menambahkan akun baru, menghapus akun, menampilkan seluruh data akun, dan keluar dari program.
+
+Ketika pengguna memilih menu cari akun, program akan meminta ID Player yang ingin dicari. Jika data ditemukan di dalam Hash Map, maka program akan menampilkan username yang sesuai dengan ID Player tersebut. Jika data tidak ditemukan, program akan menampilkan pesan bahwa akun tidak ditemukan.
+
+Saat pengguna memilih menu tambah akun, program akan meminta ID Player dan Username baru. Data tersebut kemudian akan disimpan ke dalam Hash Map menggunakan proses insert sehingga dapat dicari kembali di kemudian hari.
+
+Jika pengguna memilih menu hapus akun, program akan meminta ID Player yang akan dihapus. Apabila data ditemukan, maka akun akan dihapus dari Hash Map. Jika data tidak ditemukan, program akan menampilkan pesan bahwa akun tidak ditemukan.
+
+## Link vidio youtube
+
+Ketika menu tampilkan data akun dipilih, program akan menampilkan seluruh data akun yang tersimpan pada Hash Map. Data akan ditampilkan berdasarkan indeks bucket pada Hash Table beserta isi linked list yang ada pada setiap bucket.
+
+Program ini menggunakan struktur data Hash Map dengan metode Separate Chaining untuk menangani collision. Dengan metode ini, beberapa data yang memiliki indeks hash yang sama dapat disimpan dalam satu bucket menggunakan linked list, sehingga proses penyimpanan, pencarian, dan penghapusan data dapat dilakukan dengan lebih efisien.
