@@ -1,4 +1,6 @@
-# Implementasi Hash Map Menggunakan Metode Separate Chaining pada Sistem Akun Game Online
+## Judul Program
+Implementasi Queue Array pada Sistem Antrian Pasien Klinik 
+Implementasi Hash Map Menggunakan Metode Separate Chaining pada Sistem Akun Game Online
 
 ## Deskripsi Singkat
 
@@ -9,6 +11,11 @@ Metode Separate Chaining digunakan untuk menangani collision pada Hash Map denga
 ---
 
 # Source Code dan Penjelasan
+<img width="1049" height="980" alt="Cuplikan layar 2026-06-07 174901" src="https://github.com/user-attachments/assets/c5cc9327-0ee0-4868-8c50-6288b063f8b6" />
+<img width="1053" height="891" alt="Cuplikan layar 2026-06-07 175020" src="https://github.com/user-attachments/assets/80285b24-2e3d-4288-b02a-aed394d0a15b" />
+<img width="1052" height="917" alt="Cuplikan layar 2026-06-07 175043" src="https://github.com/user-attachments/assets/72da9aee-9d3e-4032-8495-e316d9e6fc9f" />
+<img width="1049" height="799" alt="Cuplikan layar 2026-06-07 175102" src="https://github.com/user-attachments/assets/e3062a89-2a4a-4e04-9612-42150bd31acc" />
+
 
 ## 1. Membuat Class Node
 
