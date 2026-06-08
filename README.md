@@ -584,8 +584,9 @@ Saat pengguna memilih menu tambah akun, program akan meminta ID Player dan Usern
 
 Jika pengguna memilih menu hapus akun, program akan meminta ID Player yang akan dihapus. Apabila data ditemukan, maka akun akan dihapus dari Hash Map. Jika data tidak ditemukan, program akan menampilkan pesan bahwa akun tidak ditemukan.
 
-## Link vidio youtube
-
 Ketika menu tampilkan data akun dipilih, program akan menampilkan seluruh data akun yang tersimpan pada Hash Map. Data akan ditampilkan berdasarkan indeks bucket pada Hash Table beserta isi linked list yang ada pada setiap bucket.
 
 Program ini menggunakan struktur data Hash Map dengan metode Separate Chaining untuk menangani collision. Dengan metode ini, beberapa data yang memiliki indeks hash yang sama dapat disimpan dalam satu bucket menggunakan linked list, sehingga proses penyimpanan, pencarian, dan penghapusan data dapat dilakukan dengan lebih efisien.
+
+## Link vidio youtube
+https://youtu.be/qHgHQU8xlFs
